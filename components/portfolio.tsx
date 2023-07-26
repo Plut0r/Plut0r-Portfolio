@@ -14,7 +14,7 @@ function Portfolio() {
   return (
     <div id="projects" className="container mb-20 md:mb-32 md:my-32 mx-[5%] md:mx-[auto]">
       <div className="w-[11rem] md:w-[12rem] h-[2.8125rem] rounded-[1rem] bg-[rgba(123,74,226,0.10)] flex items-center gap-2 pl-3">
-        <div>🔗</div>
+        <div>&#x1F517;</div>
         <span className="text-[0.875rem] md:text-[1rem] text-[#7B4AE2] font-bold">
           Selected Projects
         </span>

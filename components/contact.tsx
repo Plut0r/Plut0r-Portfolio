@@ -19,7 +19,7 @@ function Contact() {
       className="my-16 flex flex-col justify-center items-center"
     >
       <div className="w-[7rem] h-[2.25rem] bg-[rgba(123,74,226,0.10)] rounded-[1rem] flex items-center justify-center gap-1">
-        📬 <span className="text-[#7B4AE2] text-[0.875rem] md:text-[1rem] font-bold">Contact</span>
+      &#x1F4EC; <span className="text-[#7B4AE2] text-[0.875rem] md:text-[1rem] font-bold">Contact</span>
       </div>
       <h4 className="font-bold text-[1.8rem] md:text-[2.3rem] mt-5">Let's Talk!</h4>
       <div className="mt-6 flex flex-col md:flex-row items-center gap-10 md:gap-20">

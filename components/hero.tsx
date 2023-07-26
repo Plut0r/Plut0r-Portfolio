@@ -83,7 +83,7 @@ function Hero() {
         </div>
         <div className="flex flex-col gap-2 ml-5 md:ml-0 mt-7 md:mt-0">
           <h1 className="text-[#7B4AE2] text-[0.875rem] md:text-[1.25rem] font-bold">
-            👋 Greetings!
+            &#x1F44B; Greetings!
           </h1>
           <h2 className="text-white text-[3rem] md:text-[3.25rem] font-extrabold">
             Zainab Ogunola
