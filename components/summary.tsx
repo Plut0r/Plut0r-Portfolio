@@ -1,12 +1,24 @@
+"use client";
+
 import Image from "next/image";
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Summary() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <div>
       <div className="container flex items-center justify-center mt-16">
         <div className="w-[56.125rem] flex flex-col md:flex-row gap-8 md:gap-0 items-center justify-between">
-          <div className="w-[15.375rem] h-[12.5rem] rounded-[1rem] border border-[rgba(123,74,226,0.50)] flex flex-col items-center">
+          <div
+            className="w-[15.375rem] h-[12.5rem] rounded-[1rem] border border-[rgba(123,74,226,0.50)] flex flex-col items-center"
+            data-aos="zoom-in-up"
+            data-aos-duration="2000"
+          >
             <Image
               className="mt-4"
               src="/CodeIcon.png"
@@ -17,9 +29,15 @@ function Summary() {
             <p className="text-white text-[0.8rem] font-normal mt-4">
               More than 1 year
             </p>
-            <h3 className="text-white text-[1.5rem] md:text-[2rem] font-bold">Experience</h3>
+            <h3 className="text-white text-[1.5rem] md:text-[2rem] font-bold">
+              Experience
+            </h3>
           </div>
-          <div className="w-[15.375rem] h-[12.5rem] rounded-[1rem] bg-[rgba(123,74,226,0.10)] flex flex-col items-center">
+          <div
+            className="w-[15.375rem] h-[12.5rem] rounded-[1rem] bg-[rgba(123,74,226,0.10)] flex flex-col items-center"
+            data-aos="zoom-in-up"
+            data-aos-duration="2000"
+          >
             <Image
               className="mt-4"
               src="/ProjectsIcon.png"
@@ -30,9 +48,15 @@ function Summary() {
             <p className="text-white text-[0.8rem] font-normal mt-4">
               More than 25
             </p>
-            <h3 className="text-white text-[1.5rem] md:text-[2rem] font-bold">Projects</h3>
+            <h3 className="text-white text-[1.5rem] md:text-[2rem] font-bold">
+              Projects
+            </h3>
           </div>
-          <div className="w-[15.375rem] h-[12.5rem] rounded-[1rem] border border-[rgba(123,74,226,0.50)] flex flex-col items-center">
+          <div
+            className="w-[15.375rem] h-[12.5rem] rounded-[1rem] border border-[rgba(123,74,226,0.50)] flex flex-col items-center"
+            data-aos="zoom-in-up"
+            data-aos-duration="2000"
+          >
             <Image
               className="mt-4"
               src="/DesignIcon.png"
@@ -43,7 +67,9 @@ function Summary() {
             <p className="text-white text-[0.8rem] font-normal mt-4">
               More than 10
             </p>
-            <h3 className="text-white text-[1.5rem] md:text-[2rem] font-bold">Skills</h3>
+            <h3 className="text-white text-[1.5rem] md:text-[2rem] font-bold">
+              Skills
+            </h3>
           </div>
         </div>
       </div>
