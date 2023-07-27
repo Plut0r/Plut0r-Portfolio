@@ -81,7 +81,7 @@ function Hero() {
             height={320}
           />
         </div>
-        <div className="flex flex-col gap-2 ml-5 md:ml-0 mt-7 md:mt-0">
+        <div className="flex flex-col gap-2 ml-5 md:ml-0 mt-7 md:mt-0"> 
           <h1 className="text-[#7B4AE2] text-[0.875rem] md:text-[1.25rem] font-bold">
             &#x1F44B; Greetings!
           </h1>
@@ -158,7 +158,7 @@ function Hero() {
           <Link href="/My Resume.pdf" target="blank">
             <div className="flex items-center gap-3 cursor-pointer">
               <p className="text-[1rem] text-[rgba(123,74,226,0.50)] font-semibold">
-                Zainab's CV
+                Zainab&rsquo;s CV
               </p>
               <div>
                 <Image
@@ -197,7 +197,7 @@ function Hero() {
                 </svg>
               </div>
               <p className="text-[1rem] font-semibold text-[rgba(123,74,226,0.50)]">
-                Let's talk
+                Let&rsquo;s talk
               </p>
             </div>
           </Link>

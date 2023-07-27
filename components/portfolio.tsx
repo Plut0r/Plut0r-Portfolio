@@ -257,7 +257,7 @@ function Portfolio() {
             </h4>
             <p className="text-[0.875rem] font-normal text-[rgba(255,255,255,0.50)] mt-2">
               I built a demo food delivery service landing page using ReactJS,
-              and I'm planning to convert it to a NextJS project. The landing
+              and I&rsquo;m planning to convert it to a NextJS project. The landing
               page allows customers to easily browse through the available food
               subscriptions and food menu.
             </p>
@@ -574,7 +574,7 @@ function Portfolio() {
               </h4>
               <p className="text-[0.7rem] font-normal text-[rgba(255,255,255,0.50)] mt-2">
                 I built a demo food delivery service landing page using ReactJS,
-                and I'm planning to convert it to a NextJS project. The landing
+                and I&rsquo;m planning to convert it to a NextJS project. The landing
                 page allows customers to easily browse through the available
                 food subscriptions and food menu.
               </p>
