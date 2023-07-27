@@ -21,7 +21,7 @@ function Contact() {
       <div className="w-[7rem] h-[2.25rem] bg-[rgba(123,74,226,0.10)] rounded-[1rem] flex items-center justify-center gap-1">
       &#x1F4EC; <span className="text-[#7B4AE2] text-[0.875rem] md:text-[1rem] font-bold">Contact</span>
       </div>
-      <h4 className="font-bold text-[1.8rem] md:text-[2.3rem] mt-5">Let's Talk!</h4>
+      <h4 className="font-bold text-[1.8rem] md:text-[2.3rem] mt-5">Let&rsquo;s Talk!</h4>
       <div className="mt-6 flex flex-col md:flex-row items-center gap-10 md:gap-20">
         <Link href="https://wa.me/+2348161634036" target="blank">
           <div className="w-[8.2rem] h-[2.75rem] rounded-[1rem] border border-[rgba(123,74,226,0.50)] flex items-center justify-center gap-3 cursor-pointer">
