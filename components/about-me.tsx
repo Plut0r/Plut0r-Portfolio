@@ -13,7 +13,7 @@ function AboutMe() {
   return (
     <div
       id="about-me"
-      className="container my-14 flex flex-col lg:flex-row items-center justify-center md:justify-start gap-10 md:gap-40"
+      className="container my-14 flex flex-col lg:flex-row items-center justify-center md:justify-start gap-10 md:gap-40 lg:gap-20 xl:gap-40"
     >
       <div>
         <Image
@@ -24,7 +24,7 @@ function AboutMe() {
           className="shrink-0"
         />
       </div>
-      <div className="w-[90%] lg:w-[50%]">
+      <div className="w-full lg:w-[50%]">
         <div
           className="w-[8rem] md:w-[10rem] h-[2.8125rem] rounded-[1rem] bg-[rgba(123,74,226,0.10)] flex justify-center items-center text-[0.875rem] md:text-[1rem] font-bold text-[#7B4AE2]"
           data-aos="zoom-in-up"

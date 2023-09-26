@@ -81,11 +81,11 @@ function Hero() {
             height={320}
           />
         </div>
-        <div className="flex flex-col gap-2 ml-5 md:ml-0 mt-7 md:mt-0"> 
+        <div className="flex flex-col gap-2 mt-7 md:mt-0"> 
           <h1 className="text-[#7B4AE2] text-[0.875rem] md:text-[1.25rem] font-bold">
             &#x1F44B; Greetings!
           </h1>
-          <h2 className="text-white text-[3rem] md:text-[3.25rem] font-extrabold">
+          <h2 className="text-white text-[3rem] md:text-[3.2rem] lg:text-[3.25rem] font-extrabold">
             Zainab Ogunola
           </h2>
           <p className="text-[rgba(255,255,255,0.50)] text-[1.125rem] md:text-[1.25rem] font-normal">
@@ -154,7 +154,7 @@ function Hero() {
             height={320}
           />
         </div>
-        <div className="flex md:flex-col items-center gap-3 ml-5 md:ml-0 mt-3 md:mt-0">
+        <div className="flex md:flex-col items-center gap-3 mt-3 md:mt-0">
           <Link href="/My Resume.pdf" target="blank">
             <div className="flex items-center gap-3 cursor-pointer">
               <p className="text-[1rem] text-[rgba(123,74,226,0.50)] font-semibold">
